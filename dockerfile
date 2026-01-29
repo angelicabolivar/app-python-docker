@@ -12,5 +12,7 @@ COPY . .
 
 EXPOSE 5000
 
+LABEL org.opencontainers.image.source=https://github.com/angelicabolivar/app-python-docker
+
 CMD ["python", "main.py"]
 
